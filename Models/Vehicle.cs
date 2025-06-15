@@ -8,7 +8,7 @@ namespace Solid_Implmentation.Models
 {
     public abstract class Vehicle
     {
-        public string LiscencePlate { get; set; }
+        public string LicensePlate { get; set; }
 
         public abstract string GetVehicleType();
 

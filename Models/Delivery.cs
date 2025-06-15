@@ -14,7 +14,7 @@ namespace Solid_Implmentation.Models
 
         public override string ToString()
         {
-            return $"Driver: {Driver.name}, Vehicle: {Vehicle.GetVehicleType()}, Package: {Package.PackageId}, Destination: {Package.Destination}, Weight: {Package.WeightKg}kg";
+            return $"Driver: {Driver.Name}, Vehicle: {Vehicle.GetVehicleType()}, Package: {Package.PackageId}, Destination: {Package.Destination}, Weight: {Package.WeightKg}kg";
         }
     }
 }
